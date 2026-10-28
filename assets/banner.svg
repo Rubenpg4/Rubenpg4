@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Rubén Prieto García · Solution Architect · DevOps Engineer</title>
+<desc id="desc">Banner con un diagrama de arquitectura en AWS: CDN, balanceador y dos zonas de disponibilidad con réplica de base de datos.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b1220"/>
+    <stop offset="1" stop-color="#132036"/>
+  </linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#22324d"/>
+  </pattern>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0b1220" stop-opacity="1"/>
+    <stop offset="0.55" stop-color="#0b1220" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+  .node { fill: #16243b; stroke: #3a5a85; stroke-width: 1.2; }
+  .label { font-size: 11px; fill: #9fb3c8; }
+  .zone { fill: none; stroke: #2c4466; stroke-dasharray: 4 4; }
+  .wire { fill: none; stroke: #2f4b72; stroke-width: 1.5; }
+  .flow { fill: none; stroke: #ff9900; stroke-width: 1.8; stroke-linecap: round; stroke-dasharray: 2 14; animation: flow 1.6s linear infinite; }
+  .sync { animation-duration: 2.4s; stroke: #4fb3ff; }
+  @keyframes flow { to { stroke-dashoffset: -32; } }
+  @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+</style>
+
+<rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="16" fill="url(#dots)"/>
+<rect width="1200" height="300" rx="16" fill="url(#fade)"/>
+
+<!-- Identidad -->
+<text x="64" y="118" font-size="50" font-weight="700" fill="#f0f6fc">Rubén Prieto García</text>
+<text x="64" y="160" font-size="24" font-weight="600" fill="#ff9900">Solution Architect · DevOps Engineer</text>
+<g transform="translate(64 190)">
+  <circle cx="9" cy="9" r="9" fill="#ff9900"/>
+  <path d="M4.5 9.2 7.8 12.4 13.6 6" fill="none" stroke="#0b1220" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="28" y="14" font-size="16" fill="#c9d6e3">AWS Certified Solutions Architect – Associate</text>
+</g>
+<text x="64" y="248" font-size="14" class="mono" fill="#6f87a3">arquitectura en AWS · infraestructura reproducible · CI/CD</text>
+
+<!-- Diagrama: usuarios → CDN → ALB → dos AZ (app + db) con réplica -->
+<g transform="translate(0 0)">
+  <rect x="880" y="40" width="290" height="226" rx="10" class="zone" stroke="#3a5a85"/>
+  <text x="894" y="58" class="label mono">vpc</text>
+  <rect x="992" y="70" width="164" height="86" rx="8" class="zone"/>
+  <text x="1004" y="86" class="label mono">az-a</text>
+  <rect x="992" y="168" width="164" height="86" rx="8" class="zone"/>
+  <text x="1004" y="184" class="label mono">az-b</text>
+
+  <path class="wire" d="M744 160 H790 M858 160 H900 M962 160 C980 160 984 118 1004 118 M962 160 C980 160 984 216 1004 216 M1058 118 H1080 M1058 216 H1080 M1107 136 V198"/>
+  <path class="flow" d="M744 160 H790 M858 160 H900 M962 160 C980 160 984 118 1004 118 M962 160 C980 160 984 216 1004 216 M1058 118 H1080 M1058 216 H1080"/>
+  <path class="flow sync" d="M1107 136 V198"/>
+
+  <circle cx="728" cy="160" r="16" class="node"/>
+  <circle cx="728" cy="155" r="4" fill="#9fb3c8"/>
+  <path d="M720 168 a8 6 0 0 1 16 0" fill="#9fb3c8"/>
+  <text x="728" y="194" class="label mono" text-anchor="middle">users</text>
+
+  <rect x="790" y="142" width="68" height="36" rx="8" class="node"/>
+  <text x="824" y="164" class="label mono" text-anchor="middle">cdn</text>
+  <rect x="900" y="142" width="62" height="36" rx="8" class="node"/>
+  <text x="931" y="164" class="label mono" text-anchor="middle">alb</text>
+
+  <rect x="1004" y="102" width="54" height="32" rx="7" class="node"/>
+  <text x="1031" y="122" class="label mono" text-anchor="middle">app</text>
+  <rect x="1080" y="102" width="54" height="32" rx="7" class="node"/>
+  <text x="1107" y="122" class="label mono" text-anchor="middle">db</text>
+  <rect x="1004" y="200" width="54" height="32" rx="7" class="node"/>
+  <text x="1031" y="220" class="label mono" text-anchor="middle">app</text>
+  <rect x="1080" y="200" width="54" height="32" rx="7" class="node"/>
+  <text x="1107" y="220" class="label mono" text-anchor="middle">replica</text>
+</g>
+</svg>

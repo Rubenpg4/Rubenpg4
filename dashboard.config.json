@@ -1,0 +1,31 @@
+{
+  "user": "Rubenpg4",
+  "exclude_repos": ["Rubenpg4"],
+  "exclude_languages": ["TeX", "HTML", "CSS", "Batchfile"],
+  "projects": [
+    {
+      "repo": "Cuaderno_bitacora",
+      "title": "Bitácora",
+      "description": "Organizador de trabajo local-first con cuadernos cifrados, app de escritorio en React + Tauri y acceso de asistentes de IA por MCP con revisión humana.",
+      "tags": ["TypeScript", "Tauri", "MCP", "OWASP ASVS"]
+    },
+    {
+      "repo": "SafeBiteApp",
+      "title": "SafeBite",
+      "description": "App móvil que escanea códigos de barras y avisa de alérgenos según el perfil del usuario, con catálogo cacheado en Firestore sobre OpenFoodFacts.",
+      "tags": ["Expo", "Firebase", "Firestore", "Serverless"]
+    },
+    {
+      "repo": "TFG-IDS-basado-en-flujo-de-datos",
+      "title": "IDS basado en flujos",
+      "description": "Sistema de detección de intrusiones que extrae flujos de red con Zeek y los clasifica con modelos de machine learning, en un entorno reproducible con Docker.",
+      "tags": ["Python", "Zeek", "Machine Learning", "Docker"]
+    },
+    {
+      "repo": "EVS-Simulation",
+      "title": "EVS · Simulación de pandemia",
+      "description": "Simulación de la propagación mundial de una pandemia (modelo SIR por país, fronteras y vuelos) con mapa interactivo en Dash y Plotly.",
+      "tags": ["Python", "Dash", "Plotly", "Simulación"]
+    }
+  ]
+}
