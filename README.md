@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://www.credly.com/badges/e2ef3dc8-1aee-49de-98cb-5ed2bf003c3c/public_url"><img alt="AWS Certified Solutions Architect – Associate" src="https://img.shields.io/badge/AWS_Certified-Solutions_Architect_Associate-FF9900?style=flat-square&labelColor=232F3E"></a>
   <img alt="Solution Architect" src="https://img.shields.io/badge/foco-Solution_Architect_·_DevOps-0969da?style=flat-square">
+  <a href="https://www.linkedin.com/in/rubenpg4"><img alt="LinkedIn" src="assets/badge-linkedin.svg"></a>
 </p>
 
 ## Sobre mí
@@ -14,6 +15,15 @@ Diseño arquitecturas en AWS y automatizo cómo se construyen, prueban y desplie
 - 🏗️ **Arquitectura de soluciones**: diseños según el AWS Well-Architected Framework: escalables, resilientes, seguros y con el coste bajo control.
 - ⚙️ **DevOps**: infraestructura como código con Terraform, contenedores y Kubernetes, CI/CD con GitHub Actions y Jenkins y automatización con n8n.
 - 🛡️ **Seguridad como base**: análisis de riesgos con PILAR, cumplimiento ISO/IEC 27001, gestión de secretos con Vault y verificación con OWASP ASVS.
+
+## Ahora mismo
+
+- 💼 **Solution Architect & DevOps Engineer** en [Xauen](https://xauen.io/), spin-off de la Universidad de Jaén que desarrolla software a medida con IA y ciberseguridad.
+- 📚 Preparando certificaciones en Terraform, Kubernetes, GitHub Actions y arquitectura de soluciones con Claude.
+
+<!-- TODO: añadir los estudios tal como aparecen en el CV, por ejemplo:
+- 🎓 **Grado en ...**: Universidad de ... (20XX-20XX)
+-->
 
 ## Certificaciones
 
@@ -32,6 +42,15 @@ Diseño arquitecturas en AWS y automatizo cómo se construyen, prueban y desplie
     </td>
   </tr>
 </table>
+
+**En preparación**
+
+<p>
+  <img alt="HashiCorp Certified: Terraform Associate (en preparación)" src="https://img.shields.io/badge/Terraform_Associate-en_preparaci%C3%B3n-844FBA?style=flat-square&logo=terraform&logoColor=white">
+  <img alt="Certified Kubernetes Administrator (en preparación)" src="https://img.shields.io/badge/CKA-en_preparaci%C3%B3n-326CE5?style=flat-square&logo=kubernetes&logoColor=white">
+  <img alt="Claude Certified Architect – Foundations (en preparación)" src="https://img.shields.io/badge/Claude_Certified_Architect_Foundations-en_preparaci%C3%B3n-D97757?style=flat-square&logo=claude&logoColor=white">
+  <img alt="GitHub Actions GH-200 (en preparación)" src="https://img.shields.io/badge/GitHub_Actions_GH--200-en_preparaci%C3%B3n-2088FF?style=flat-square&logo=githubactions&logoColor=white">
+</p>
 
 ## Stack
 
@@ -91,6 +110,13 @@ Diseño arquitecturas en AWS y automatizo cómo se construyen, prueban y desplie
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rubenpg4/Rubenpg4/output/snake-dark.svg">
     <img alt="Snake recorriendo el gráfico de contribuciones" src="https://raw.githubusercontent.com/Rubenpg4/Rubenpg4/output/snake-light.svg" width="100%">
   </picture>
+</p>
+
+## Contacto
+
+<p>
+  <a href="https://www.linkedin.com/in/rubenpg4"><img alt="LinkedIn" src="assets/badge-linkedin.svg"></a>
+  <!-- TODO: enlazar el CV en PDF cuando esté actualizado (p. ej. assets/cv-ruben-prieto-garcia.pdf). -->
 </p>
 
 <p align="center">
