@@ -303,7 +303,8 @@ def main():
 
     excluded = set(config.get("exclude_repos", []))
     repos = {r["name"]: r for r in user["repositories"]["nodes"] if not r["isPrivate"] and r["name"] not in excluded}
-    languages = language_totals(repos.values(), set(config.get("exclude_languages", [])))
+    language_repos = [r for name, r in repos.items() if name not in config.get("exclude_language_repos", [])]
+    languages = language_totals(language_repos, set(config.get("exclude_languages", [])))
 
     args.out.mkdir(parents=True, exist_ok=True)
     print(f"Generando tarjetas en {args.out}")

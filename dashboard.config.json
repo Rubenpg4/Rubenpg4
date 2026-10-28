@@ -1,6 +1,7 @@
 {
   "user": "Rubenpg4",
   "exclude_repos": ["Rubenpg4"],
+  "exclude_language_repos": ["Pagina-web-immobiliaria"],
   "exclude_languages": ["TeX", "HTML", "CSS", "Batchfile"],
   "projects": [
     {
