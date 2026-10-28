@@ -12,8 +12,8 @@
 Diseño arquitecturas en AWS y automatizo cómo se construyen, prueban y despliegan. Busco sistemas que se puedan reproducir, observar y escalar sin sorpresas.
 
 - 🏗️ **Arquitectura de soluciones**: diseños según el AWS Well-Architected Framework: escalables, resilientes, seguros y con el coste bajo control.
-- ⚙️ **DevOps**: CI/CD con GitHub Actions, contenedores, scripting en Bash y PowerShell y entornos reproducibles.
-- 🛡️ **Seguridad como base**: detección de intrusiones, cifrado y verificación con OWASP ASVS.
+- ⚙️ **DevOps**: infraestructura como código con Terraform, contenedores y Kubernetes, CI/CD con GitHub Actions y Jenkins y automatización con n8n.
+- 🛡️ **Seguridad como base**: análisis de riesgos con PILAR, cumplimiento ISO/IEC 27001, gestión de secretos con Vault y verificación con OWASP ASVS.
 
 ## Certificaciones
 
@@ -37,10 +37,10 @@ Diseño arquitecturas en AWS y automatizo cómo se construyen, prueban y desplie
 
 | Área | Tecnologías |
 | --- | --- |
-| **Cloud y arquitectura** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white) |
-| **DevOps y automatización** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square) ![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) |
-| **Desarrollo** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white) |
-| **Seguridad** | ![OWASP](https://img.shields.io/badge/OWASP_ASVS-000000?style=flat-square&logo=owasp&logoColor=white) ![Zeek](https://img.shields.io/badge/Zeek_IDS-2C3E50?style=flat-square) |
+| **Cloud y arquitectura** | <img alt="AWS" src="assets/badge-aws.svg"> ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **DevOps y automatización** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) |
+| **Desarrollo** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
+| **Seguridad** | ![OWASP ASVS](https://img.shields.io/badge/OWASP_ASVS-000000?style=flat-square&logo=owasp&logoColor=white) ![PILAR](https://img.shields.io/badge/PILAR-8B1E3F?style=flat-square) ![WAF](https://img.shields.io/badge/WAF-C7511F?style=flat-square) ![Vault](https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black) ![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white) ![ISO/IEC 27001](https://img.shields.io/badge/ISO%2FIEC_27001-1F4E79?style=flat-square) |
 
 ## Dashboard
 
@@ -76,10 +76,10 @@ Diseño arquitecturas en AWS y automatizo cómo se construyen, prueban y desplie
       <img alt="IDS basado en flujos" src="https://raw.githubusercontent.com/Rubenpg4/Rubenpg4/output/project-tfg-ids-basado-en-flujo-de-datos-light.svg" width="49%">
     </picture>
   </a>
-  <a href="https://github.com/Rubenpg4/EVS-Simulation">
+  <a href="https://github.com/Rubenpg4/Wordle-Movil">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rubenpg4/Rubenpg4/output/project-evs-simulation-dark.svg">
-      <img alt="EVS · Simulación de pandemia" src="https://raw.githubusercontent.com/Rubenpg4/Rubenpg4/output/project-evs-simulation-light.svg" width="49%">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rubenpg4/Rubenpg4/output/project-wordle-movil-dark.svg">
+      <img alt="Wordle Móvil" src="https://raw.githubusercontent.com/Rubenpg4/Rubenpg4/output/project-wordle-movil-light.svg" width="49%">
     </picture>
   </a>
 </p>

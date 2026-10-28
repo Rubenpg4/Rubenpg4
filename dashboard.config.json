@@ -22,10 +22,10 @@
       "tags": ["Python", "Zeek", "Machine Learning", "Docker"]
     },
     {
-      "repo": "EVS-Simulation",
-      "title": "EVS · Simulación de pandemia",
-      "description": "Simulación de la propagación mundial de una pandemia (modelo SIR por país, fronteras y vuelos) con mapa interactivo en Dash y Plotly.",
-      "tags": ["Python", "Dash", "Plotly", "Simulación"]
+      "repo": "Wordle-Movil",
+      "title": "Wordle Móvil",
+      "description": "Juego de palabras multiplataforma en Flutter para Android, iOS, escritorio y web, en español, alemán e italiano, con un diccionario de más de 9,6 millones de palabras.",
+      "tags": ["Flutter", "Dart", "Multiplataforma", "i18n"]
     }
   ]
 }
